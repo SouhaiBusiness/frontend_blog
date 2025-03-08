@@ -95,7 +95,8 @@ export default function Home() {
         <div className='container flex flex-sb w-100'>
           <div className='leftheader_info' data-aos='fade-right'>
             <h1>
-              Hi i'm <span>Souhail</span>. <br /> Web Developer
+              Hi i'm <span>{process.env.NEXT_PUBLIC_APP_NAME}</span>. <br /> Web
+              Developer
             </h1>
             <h3>Specialized in Javascript, React and Next Js</h3>
             <div className='flex gap-2'>
@@ -268,22 +269,33 @@ export default function Home() {
                 <h4>You want to share any ideas with me ? Let's talk here !</h4>
                 <div className='social_talks flex flex-center flex-wrap gap-1 mt-2'>
                   <div className='st_icon'>
-                    <FaGithub />
+                    <Link href='' target='_blank' rel='noopener noreferrer'>
+                      <FaGithub />
+                    </Link>
                   </div>
                   <div className='st_icon'>
-                    <FaInstagram />
+                    <Link href='' target='_blank' rel='noopener noreferrer'>
+                      <FaInstagram />
+                    </Link>
                   </div>
                   <div className='st_icon'>
-                    <FaTwitter />
+                    <Link href='' target='_blank' rel='noopener noreferrer'>
+                      <FaXTwitter />
+                    </Link>
                   </div>
                   <div className='st_icon'>
-                    <FaLinkedin />
+                    <Link
+                      href='https://www.linkedin.com/in/souhail-dahmouni-25b083204/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaLinkedin />
+                    </Link>
                   </div>
                   <div className='st_icon'>
-                    <FaXTwitter />
-                  </div>
-                  <div className='st_icon'>
-                    <FaFacebook />
+                    <Link href='' target='_blank' rel='noopener noreferrer'>
+                      <FaFacebook />
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -33,7 +33,7 @@ export default function Footer(){
                 <ul>
                     <li><Link href="/" target="_blank" rel="noopener noreferrer">XTwitter</Link></li>
                     <li><Link href="/" target="_blank" rel="noopener noreferrer">Github</Link></li>
-                    <li><Link href="/" target="_blank" rel="noopener noreferrer">Linkedin</Link></li>
+                    <li><Link href="/https://www.linkedin.com/in/souhail-dahmouni-25b083204/" target="_blank" rel="noopener noreferrer">Linkedin</Link></li>
                     <li><Link href="/" target="_blank" rel="noopener noreferrer">Instagram</Link></li>
                 </ul>
              </div>

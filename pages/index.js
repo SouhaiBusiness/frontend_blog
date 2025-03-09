@@ -6,7 +6,6 @@ import { FaHtml5 } from 'react-icons/fa';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { FiDatabase } from 'react-icons/fi';
 import { AiOutlineDeploymentUnit } from 'react-icons/ai';
-import { FaTwitter } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';

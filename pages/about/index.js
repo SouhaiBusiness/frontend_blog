@@ -63,8 +63,8 @@ export default function About() {
         {/* Portfolio Link */}
         <div className='mt-3 flex flex-col flex-center gap-1 mb-3'>
           <p className='text-center'>
-            I invite you also to interact with take a look on my portfolio,
-            where you can find examples of my work and projects. <br />I look
+            I invite you also to interact with me. Take a look on my portfolio,
+            where you can find examples of my works and projects. <br />I look
             forwards to collaborate with you 😀 Click the button bellow 👇
           </p>
           <Link

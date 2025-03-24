@@ -120,7 +120,7 @@ export default function Header() {
           <div className='logo'>
             {/*<img src="canva.png" alt="logo"/>*/}
             <Link href='/'>
-              <h1>{process.env.NEXT_PUBLIC_APP_NAME}</h1>
+              <h1>BLOGGY</h1>
             </Link>
           </div>
           <div className='searchbar'>

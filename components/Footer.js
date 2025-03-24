@@ -5,7 +5,7 @@ export default function Footer(){
        <div className="footer">
          <div className="container flex flex-sb flex-wrap flex-left">
              <div className="footer_logo">
-                  <h2>{process.env.NEXT_PUBLIC_APP_NAME}</h2>
+                  <h2>BLOGGY</h2>
                   <h4>&copy; 2025 All rights reserved.</h4>
                   <h3>Build by <span>{process.env.NEXT_PUBLIC_APP_NAME}</span></h3>
              </div>

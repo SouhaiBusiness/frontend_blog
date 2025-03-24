@@ -226,7 +226,7 @@ export default function Header() {
         {/*mobile navlist */}
         <div className={aside ? `navlist_mobile open` : 'navlist_mobile'}>
           <div className='navlist_m_title flex flex-sb'>
-            <h1>My Blogs</h1>
+            <h1>{process.env.NEXT_PUBLIC_APP_NAME}</h1>
             <button onClick={closeAsidemenu}>
               <FaXmark />
             </button>
